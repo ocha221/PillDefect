@@ -1,5 +1,4 @@
 # PillDefect
-Classifiers for spotting defective pills using a ConvNeXt network and a custom dataset. 
 <img width="1312" height="1180" alt="fold2" src="https://github.com/user-attachments/assets/d2387f24-5b41-44fe-8b29-efbf31e45c0f" />
 When tested on a hold-out set we see that the model has high accuracy (96%), excellent class separation and, importantly, avoids false-negatives. The model has good tolerance to different angles and lighting conditions, and correctly identifies the existence of at least one defective pill even when multiple passing ones are in the frame. This model acts as a classifier and does not segment images. No synthetic images were used during training/testing/validation, but some nano banana pro generations were used for the demo images below. 
 <p>
